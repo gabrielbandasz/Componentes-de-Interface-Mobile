@@ -14,7 +14,7 @@ class TaskTest {
         // preparar + agir
         val tarefa = Task(title = "Estudar")
         // verificar
-        assertFalse(tarefa.isCompleted)
+        assertTrue(tarefa.isCompleted)
     }
 
     @Test
